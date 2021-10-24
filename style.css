@@ -89,3 +89,29 @@ h1, h2, h3, h4, h5, h6, p {
 
     cursor: pointer;
 }
+
+.photoapp {
+    padding: 110px 0 90px;
+
+    background: url("img/photoapp/phototime_02.jpg") center no-repeat;
+    background-size: cover;
+}
+
+.photoapp__inner {
+    width: 435px;
+}
+
+.photoapp__title {
+    margin-bottom: 45px;
+
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #16a085;
+}
+
+.photoapp__text {
+    margin-bottom: 45px;
+
+    font-size: 20px;
+}
