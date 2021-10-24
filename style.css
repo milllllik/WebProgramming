@@ -179,3 +179,61 @@ h1, h2, h3, h4, h5, h6, p {
     color: #000;
     font-weight: 700;
 }
+
+
+.download {
+    padding: 90px 0 120px 0;
+
+    background-color: #f5f6f7;
+}
+
+.download__inner {
+    margin: 0 auto;
+    width: 860px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.download__title {
+    margin-bottom: 15px;
+}
+
+.download__text {
+    font-size: 20px;
+    line-height: 1.5;
+
+    margin-bottom: 45px;
+}
+
+
+.download__btns {
+    display: flex;
+    justify-content: center;
+}
+
+.download__btn {
+    margin: 0 15px;
+    display: flex;
+}
+
+.btn__part {
+    display: flex;
+    width: 57px;
+    height: 57px;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #107a65;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.download__icon {
+    
+}
+
+.btn--download {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
