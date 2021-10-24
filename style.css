@@ -143,3 +143,39 @@ h1, h2, h3, h4, h5, h6, p {
     font-size: 20px;
 }
 
+.community {
+    height: 790px;
+    background: url("img/community/community-bg.jpg") center no-repeat;
+    background-size: cover;
+}
+
+.community__inner {
+    padding: 350px 0 325px;
+
+    text-align: center;
+}
+
+.community__title {
+    margin-bottom: 30px;
+
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.community__input {
+    padding: 20px 0 20px 20px;
+    width: 340px;
+
+    border-radius: 3px;
+    border: 0;
+    outline: 0;
+}
+
+.community__input::placeholder {
+    text-transform: uppercase;
+    color: #000;
+    font-weight: 700;
+}
